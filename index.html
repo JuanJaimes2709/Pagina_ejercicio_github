@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi pagina</title>
+  <title>Mi Proyecto</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Informacion del estudiante</h1>
-  <p>Nombre: Juan Jaimes</p>
-  <p>Edad: 20</p>
-  <p>Semestre que cursa: 4to</p>
-  <p>Hobbies: Ajedrez, Jugar videojuegos, Leer manga, Ver series</p>
-  <h2>Series favoritas</h2>
-  <ul>
-    <li>Better Call Saul</li>
-    <li>Breaking Bad</li>
-    <li>Suits</li>
-    <li>Snowfall</li>
-    <li>The Big Bang Theory</li>
-    <li>Brooklyn Nine-Nine</li>
-    <li>Chernobyl</li>
-    <li>Dark</li>
-    <li>Ragnarok</li>
-    <li>Vikings</li>
+  <header>
+    <h1>Información del Estudiante</h1>
+    <p><b>Nombre:</b> Juan Pérez</p>
+    <p><b>Semestre:</b> 3</p>
+  </header>
+
+  <main>
+    <!-- Hobbies -->
+    <section>
+      <h2>Hobbies</h2>
+      <div class="gallery" id="hobbies"></div>
+    </section>
+
+    <!-- Series -->
+    <section>
+      <h2>Series favoritas</h2>
+      <div class="gallery" id="series"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
