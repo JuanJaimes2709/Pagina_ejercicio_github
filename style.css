@@ -21,7 +21,7 @@ main {
   padding: 20px;
 }
 
-/* Galería de cards */
+/* Galería en cards */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
