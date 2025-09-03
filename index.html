@@ -3,30 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página</title>
+  <title>Página del Estudiante</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Información del Estudiante</h1>
-    <p><b>Nombre:</b> Juan Jaimes</p>
-    <p><b>Edad:</b> 20</p>
-    <p><b>Semestre que cursa:</b> 4to</p>
+    <p>Nombre: Juan Jaimes</p>
+    <p>Edad: 20</p>
+    <p>Semestre que cursa: 4to</p>
   </header>
 
   <main>
     <!-- Hobbies -->
-    <section>
+    <div class="section">
       <h2>Hobbies</h2>
-      <div class="gallery" id="hobbies"></div>
-    </section>
+      <div id="hobbies" class="gallery"></div>
+    </div>
 
     <!-- Series -->
-    <section>
-      <h2>Series favoritas</h2>
-      <div class="gallery" id="series"></div>
-    </section>
+    <div class="section">
+      <h2>Series Favoritas</h2>
+      <div id="series" class="gallery"></div>
+    </div>
   </main>
+
+  <footer>
+    <p>© 2025 Juan Jaimes - Página Personal</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
