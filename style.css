@@ -1,3 +1,8 @@
+/* Cursor personalizado estilo WoW */
+* {
+  cursor: url("https://cur.cursors-4u.net/games/gam-4/gam372.cur"), auto !important;
+}
+
 /* Animación inicial con gif estilo SpaceHey */
 body:before {
   content: " ";
